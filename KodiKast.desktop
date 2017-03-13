@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Kodi Kast Stream File
+Exec=bash -c "/bin/echo '%U' > /tmp/kodikast; exit"
+Type=Application
+Icon=kodi
