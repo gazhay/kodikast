@@ -1,6 +1,8 @@
-# KodiKast
+# Lukecast
 
-A small python script to provide an Ubuntu system indicator to stream video, or your screen to zeroconf recognised Kodi instances.
+The new name for KodiKast. As Kodi 18 will be Leia....
+
+A small python script to provide a system indicator in GNOME or Ubuntu with appindicator extensions (sigh) to stream video, or your screen to zeroconf recognised Kodi instances.
 
 ## Installation
 
@@ -16,13 +18,16 @@ Requires the python zeroconf library, you can install it with
 
 (Or your equivalent, just make sure your python3 can find it)
 
+As of 17.10+ you will need TopIcons or KStatusNotifierItem/AppIndicator gnome extension.
+it *may* work with the Ubuntu fork fornappindicators.
+
 ## Usage
 
-- Add the python file "kodicast.py" to your startup-items, and place the ".desktop" file somewhere.
+- Add the python file "lukecast.py" to your startup-items, and place the ".desktop" file somewhere.
 
 + Reboot, or start the python manually
 
-+ Open the KodiKast menu and select a "receiver" from the submenu
++ Open the Lukecast menu and select a "receiver" from the submenu
 
 + Now either 
 	+ drop a file on the desktop file
@@ -35,4 +40,5 @@ This is *pretty* hacky. It was a quick'n'dirty solution to allow me to stream my
 
 ## Limitations
 
-Only tested on Ubuntu 16.10, with python3
+Tested on Ubuntu 16.10, 17.04 with python3
+Additionally 17.10 Ubuntu-Gnome.
